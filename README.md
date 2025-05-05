@@ -31,7 +31,7 @@ Here are sample outputs from the face recognition module:
 
 The following diagram illustrates the flow of the system:
 
-![flowchart](./flowchart.png)
+![flowchart]([./flowchart.png](https://github.com/NadaK2003/Smart-Face-Attendance-System/blob/main/Flowchart_code.png))
 
 ## How to Run
 1. Clone the repository
