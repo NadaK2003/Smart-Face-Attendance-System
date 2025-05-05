@@ -16,22 +16,23 @@ A computer vision system that recognizes student faces in real-time and marks th
 - CSV for data logging
 
 ## Screenshots
-
 Here are sample outputs from the face recognition module:
 
 | Detection 1 | Detection 2 |
 |-------------|-------------|
-| ![d1](./student1.jpg) | ![d2](./student2.jpg) |
+| ![d1](5821097510347852945.jpg) | ![d2](5821097510347852946.jpg) |
 
 | Detection 3 | Detection 4 |
 |-------------|-------------|
-| ![d3](./student3.jpg) | ![d4](./student4.jpg) |
+| ![d3](5821097510347852947.jpg) | ![d4](5821097510347852948.jpg) |
+
+---
 
 ## Flowchart
 
 The following diagram illustrates the flow of the system:
 
-![flowchart]([./flowchart.png](https://github.com/NadaK2003/Smart-Face-Attendance-System/blob/main/Flowchart_code.png))
+![flowchart](Flowchart_code.png)
 
 ## How to Run
 1. Clone the repository
