@@ -1,6 +1,6 @@
-# Face Recognition Attendance System
+# Smart Face Attendance System
 
-A computer vision system that recognizes student faces in real-time and marks their attendance automatically using webcam footage.
+A computer vision system that recognizes student faces in real-time and marks their attendance automatically.
 
 ## Features
 - Real-time face detection and recognition
@@ -12,28 +12,34 @@ A computer vision system that recognizes student faces in real-time and marks th
 ## Tech Stack
 - Python
 - OpenCV
-- face_recognition
+- face_recognition library
 - CSV for data logging
 
-## How It Works
-1. Load student images from directory
-2. Encode faces and save encodings
-3. Start webcam and capture frames
-4. Detect and recognize faces in each frame
-5. Log recognized names into attendance file
-6. Show unknown face alert if face not matched
+## Screenshots
 
-## Future Improvements
-- Add GUI using Streamlit or Tkinter
-- Save unknown faces to folder for later review
-- Export attendance to Excel with styling
-- Daily attendance history and statistics dashboard
+Here are sample outputs from the face recognition module:
+
+| Detection 1 | Detection 2 |
+|-------------|-------------|
+| ![d1](./student1.jpg) | ![d2](./student2.jpg) |
+
+| Detection 3 | Detection 4 |
+|-------------|-------------|
+| ![d3](./student3.jpg) | ![d4](./student4.jpg) |
 
 ## Flowchart
-![Workflow](Flowchart_code.png)
 
-## Demo
-(Attach screenshot or gif here showing system in action)
+The following diagram illustrates the flow of the system:
 
-## Screenshots
-Add sample images from your project here:
+![flowchart](./flowchart.png)
+
+## How to Run
+1. Clone the repository
+2. Place known student images inside a folder (e.g., Students)
+3. Run attendence.py
+4. The system will detect and mark attendance in Attendance.csv
+
+## Future Work
+- Improve recognition in low light
+- Add GUI interface
+- Integrate cloud-based storage for attendance
