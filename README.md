@@ -30,7 +30,7 @@ A computer vision system that recognizes student faces in real-time and marks th
 - Daily attendance history and statistics dashboard
 
 ## Flowchart
-![Workflow](Flowchart_code.png)
+
 
 ## Demo
 (Attach screenshot or gif here showing system in action)
